@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+   <style>
+    #screen {
+         width: 200px;
+         height: 200px;
+         background-color: brown;
+    }
+
+    button {
+          margin-top: 15px;
+    }
+</style>
+</head>
+<body>
+     <marquee behavior="" direction="" style="color: red;">Abhi</marquee>
+     <div id="screen"></div>
+     <button class="red" onclick="red()">red</button>
+     <button class="blue" onclick="blue()">blue</button>
+     <button class="green" onclick="green()">green</button>
+     <button class="black" onclick="black()">black</button>
+  <script>
+       var screen=document.getElementById("screen")
+
+       function red()
+       {
+           screen.style.backgroundColor="red"
+       }
+
+
+
+       function blue()
+       {
+           screen.style.backgroundColor="blue"
+       }
+
+       function green()
+       {
+           screen.style.backgroundColor="green"
+       }
+
+       function black()
+       {
+           screen.style.backgroundColor="black"
+       }
+
+
+  </script>
+</body>
+</html>
